@@ -1,0 +1,152 @@
+@media screen and (min-width: 2551px) {
+    .sec-1st-main {
+        padding: 3% 0%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        /* background-color: aqua; */
+    }
+    .sec-1st-main{
+      text-align: center;
+    }
+    .color-blue{
+       display: block;
+       position: relative;
+       left: 26%;
+    }
+    .sec-2st-form form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec-2st-form input{
+        width: 90%;
+        margin: 3%;
+       
+    }
+    .sec-2st-form input[type="button"]{
+        width: 90%;
+    }
+    .card{
+        width: 30%;
+        background-color:white;
+        padding: 1% 1%;
+        text-align: left;
+        
+    }
+    .sec-3rd-cards{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     /* background-color: red; */
+     align-items: center;
+    }
+    .card{
+        width: 90%;
+       margin-bottom: 5%;
+        
+    }
+    .sec-4th-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .width{
+        width: 90%;
+    }
+    .sec-4th-content{
+        padding: 8% 0%;
+    }
+    .sec-5th-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-5th-card{
+        width: 90%;
+        margin-bottom: 6%;
+    }
+    .sec-5th-main .heading{
+        width: 100%;
+        padding: 2% 3.6%;
+    }
+    .sec-6th-main{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+    .sec-6th-main .left{
+        width: 100%;
+        background-color: cadetblue;
+        padding: 0% 2%;
+        margin-bottom: 3%;
+     }
+     .sec-6th-main .right{
+        margin-bottom: 3%;
+        width: 100%;
+        text-align: left;
+     } 
+     .sec-6th-main .left-image{
+        width: 100%;
+     }
+     .sec-7th{
+       padding: 3% 3.6%;
+    }
+    .sec-8th-cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .sec-8th-card{
+        display: flex;
+       flex-direction: column;
+        width: 90%;
+       margin-bottom: 5%;
+       text-align: left;
+    }
+    .sec-9th-main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sec-9th-card{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    .clients{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .client{
+        width: 15%;
+        margin-bottom: 5%;
+    }
+    .newsletter{  
+        width: 80%;
+       
+       }
+     .newsletter form{
+        width: 100%;
+     }  
+    .form-wraper{
+        display: flex;
+    }
+    form .email{
+        width: 90%;
+      margin-bottom: 5%;
+    }
+    form .btn{
+        width: 90%;
+       margin-bottom: 5%;
+    }
+
+}
+

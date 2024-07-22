@@ -1,0 +1,578 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+.container{
+    width: 75%;
+    margin: auto;
+    /* background-color: aqua; */
+}
+.header{
+    background-color: white;
+    padding: 1.5% 0%;
+    text-align: center;
+}
+.bars{
+    display: inline-block;
+}
+.header i{
+    font-size: 1.5rem;
+}
+.sec-1st{
+    background-image: url("./images/coffeShop.jpg");
+    width: 100%;
+    height: 80vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.sec-1st-main{
+    padding: 6% 0%;
+ 
+    text-align: center;
+    /* background-color: blue; */
+}
+.sec-1st-content{
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 85%;
+    margin: auto;
+    padding: 2%;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.sec-1st-content h1{
+    font-size: 3em;
+    margin-bottom: 2.6%;
+}
+.sec-1st-content p{
+    font-size: 1.4em;
+    font-weight: bolder;
+}
+.sec-1st-btn{
+    padding: 2% 3%;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    margin: 2.6% 0%;
+    cursor: pointer;
+}
+.color-blue{
+    background-color: rgb(44, 155, 234);
+    margin-right: 5%;
+}
+.color-red{
+    background-color: red;
+}
+.sec-1st-main p:last-child{
+    font-size: 1.2em;
+}
+.sec-1st-main p:last-child a{
+    text-decoration: none;
+}
+
+.sec-2st{
+    background-color: rgb(44, 155, 234);
+    text-align: center;
+    padding: 4% 0%;
+
+}
+.container-full-width{
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 1% 2%;
+}
+.container-full-width:first-child h2{
+    font-size: 2.4em;
+    letter-spacing: 2px;
+    padding-bottom: 3%;
+    color: white;
+}
+.sec-2st-form{
+    background-color: white;
+    padding: 2% 1%;
+    width: 90%;
+    margin: auto;
+}
+.sec-2st-form input{
+    padding: 1%;
+    width: 38%;
+}
+.sec-2st-form input[type="button"]{
+    background-color: red;
+    width: 10%;
+    border: none;
+    font-size: large;
+}
+
+.sec-3rd{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 2% 0%;
+}
+.sec-3rd-upper{
+    width: 80%;
+    padding: 0% 2%;
+    margin: auto;
+    /* background-color: antiquewhite; */
+    margin-bottom: 2%;
+}
+.sec-3rd-main:first-child h2{
+    font-size: 2.4em;
+    letter-spacing: 2px;
+    padding-bottom: 1.5%;  
+}
+.sec-3rd-main:first-child p{
+    font-size: 1.2em;
+}
+.sec-3rd-cards{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 30%;
+    background-color:white;
+    padding: 1% 1%;
+    text-align: left;
+    
+}
+.card .logo{
+    background-color: red;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-left: auto;
+    padding: 2%;
+    overflow: hidden;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo i{
+    color: white;
+    font-size: xx-large;
+}
+.card p{
+    margin-bottom: 6%;
+}
+.card button{
+    padding: 2%;
+    font-weight: bold;
+    color: blue;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.sec-4th{
+    background-color: white;
+    padding: 2% 0%;
+}
+.sec-4th-main{
+    /* background-color: aliceblue; */
+    display: flex;
+    gap: 26px;
+    flex-wrap: wrap;
+    padding: 0% 1.8%;
+}
+.width{
+    width: 31.4%;
+}
+.sec-4th-img img{
+    width: 100%;
+}
+.sec-4th-content{
+background-color: skyblue;
+text-align: center;
+padding: 2% 0%;
+color: white;
+}
+ .sec-4th-content h2{
+    font-size:1.9em;
+    margin-bottom: 5%;
+ }
+
+ .sec-4th-content .Text{
+    margin-bottom: 4%;
+    font-size: 1.1em;
+ }
+ .sec-4th-content p a{
+   color: white;
+   text-decoration: none;
+ }
+ .color{
+    background-color: rgb(222, 222, 222);
+ }
+ .sec-5th{
+    /* background-color: gray; */
+    text-align: center;
+    padding: 3% 0%;
+ }
+
+ .sec-5th-main .heading{
+    width: 70%;
+    margin: auto;
+ }
+ .sec-5th-main h2{
+    font-size: 3em;
+    margin-bottom: 2%;
+
+ }
+ .sec-5th-cards{
+    /* background-color: antiquewhite; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+ }
+ .sec-5th-cards .color1{
+    background-color: blue
+ }
+ .sec-5th-cards .color2{
+    background-color: red
+ }
+ .sec-5th-cards .color3{
+    background-color: gainsboro
+ }
+ .sec-5th-card{
+    width: 30%;
+    /* background-color: aquamarine; */
+    padding: 4% 2%;
+    color: white;
+ }
+
+ 
+ .sec-5th-card .persentage{
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 4%;
+ }
+ .sec-5th-card p{
+    font-size: 1.3em;
+ }
+
+ .sec-6th{
+    /* background-color: aqua; */
+    padding: 2% 0% ;
+ }
+ .sec-6th-main{
+    display: flex;
+    width: 70%;
+ }
+ .sec-6th-main .left{
+    width: 50%;
+    /* background-color: cadetblue; */
+    padding: 0% 2%;
+ }
+ .left h3{
+    font-size: 2.2em;
+    margin-bottom: 2%;
+ }
+ 
+ .sec-6th-main .left-image{
+    width: 70%;
+ }
+ .left-image{
+    margin-bottom: 7%;
+ }
+ .left-image img{
+    width: 100%;
+ }
+ .left p{
+    font-size: 1.1em;
+    margin-bottom: 10%;
+ }
+.left span a{
+    text-decoration: none;
+}
+.left button{
+    padding: 4% 10%;
+    background-color: #499ff0;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+.sec-6th-main .right{
+    /* background-color:yellow; */
+    width: 50%;
+    padding-top: 3%;
+ }
+.right-Webinar{
+padding: 3% 4%;
+background-color: gainsboro;
+font-weight: bold;
+font-size:large;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.right .webinar-color{
+    background-color: transparent;
+}
+.right-Webinar .logo{
+    background-color: red;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.right .para{
+    padding: 5%;
+    font-size: 1.2em;
+}
+.right p{
+    font-size: 1.06em;
+    padding: 0% 6%;
+    line-height: 25px;
+}
+.sec-7th{
+    background-color: #499ff0;
+    color: white;
+    padding: 4% 0%;
+    text-align: center;
+}
+.first-para{
+    font-size: 1.6em; 
+    margin-bottom: 2%;
+}
+.sec-7th-main h3{
+    font-size: 2.4em;
+    margin-bottom: 2%;
+}
+.sec-7th-main .sec-para{
+    font-size: 1.3em;
+    margin-bottom: 2%;
+}
+.sec-7th-main button{
+    padding: 2% 7%;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 1.01em;
+}
+
+.sec-8th{
+    background-color: aliceblue;
+    padding: 3% 0%;
+    text-align: center;
+}
+.sec-8th-main .upper{
+    width: 60%;
+    margin: auto;
+}
+.sec-8th-main h3{
+    font-size: 2.5em;
+    margin-bottom: 3%;
+}
+.sec-8th-main p{
+    font-size: 1.2em;
+    margin-bottom: 3%;
+}
+.sec-8th-main p a{
+    text-decoration: none;
+}
+.sec-8th-cards{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-8th-card{
+    display: flex;
+    background-color: white;
+    width: 48%;
+   padding: 2%;
+}
+
+.left-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.right-content{
+    text-align: left;
+    padding-left: 4%;
+}
+.right-content ul{
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: space-between;
+    width: 60%;
+}
+.right-content ul li{
+    list-style: none;
+    width: 40px;
+    height: 40px;
+    background-color: skyblue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.right-content ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 2%;
+    
+}
+
+.sec-9th{
+    background-color: aliceblue;
+    padding: 3% 0%;
+}
+.sec-9th-main{
+    display: flex;
+    justify-content: space-between;
+}
+.sec-9th-card{
+    width: 32%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.sec-9th-card .card2-color{
+    background-color: blue;
+}
+.card-head{
+    background-color: red;
+    padding: 4% 0%;
+    color: white;
+}
+.card-head h3{
+    font-size: 1.5em;
+    margin-bottom: 6%;
+}
+.card-head p span{
+    font-size: 3em;
+    font-size: bold;
+    margin-right: 4%;
+}
+.card-head p{
+    font-size: 1.3em;
+}
+.sec-9th-card ul{
+    padding: 6% 0%;
+}
+.sec-9th-card ul li{
+    list-style: none;
+
+    padding: 2% 0%;
+}
+.sec-9th-card button{
+    padding: 5% 15%;
+    border-radius: 5px;
+    border: none;
+    font-size: large;
+    font-weight: bold;   
+}
+.sec-10th{
+    background-color: aliceblue;
+    padding: 4% 0%;
+    text-align: center;
+}
+.sec-10th-mian h3{
+    font-size: 2em;
+    margin-bottom: 5%;
+}
+.clients{
+    display: flex;
+    justify-content: space-between;
+}
+.client{
+    width: 9%;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: end;
+}
+.client img{
+    width: 100%;
+}
+.sec-11th{
+    background-image: url("./images/blurredAbstract.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 98vh;
+}
+.wraper{
+    padding: 3% 0%;
+}
+.newsletter{
+ background-color: rgba(255, 255, 255, 0.6);
+ width: 60%;
+ margin: auto;
+ padding: 5%;
+ text-align: center;
+}
+.newsletter h3{
+    font-size: 2em;
+    letter-spacing: 3px;
+    margin-bottom: 5%;
+}
+.newsletter p{
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+}
+.form-wraper{
+    margin-bottom: 5%;
+}
+.newsletter form{
+    width: 80%;
+    /* background-color: antiquewhite; */
+    margin: auto;
+}
+
+form .email{
+    width: 60%;
+    padding: 2.4%;
+    border: none;
+    outline: none;
+}
+form .btn{
+    width: 30%;
+    padding: 1.8%;
+    font-size: large;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    margin-left: -3px;
+}
+.newsletter .para-2nd{
+    font-size: 1.1em;
+    letter-spacing: 2px;
+    margin: auto;
+    width: 70%;
+}
+.para-3rd span a{
+    text-decoration: none;
+}
+footer{
+    background-color: black;
+    padding: 5% 0%;
+    text-align: center;
+}
+footer .first-para{
+    color: white;
+    font-size: 1.1em;
+    margin-bottom: 3%;
+}
+footer .para-2nd{
+    color: white;
+    font-size: 1.1em;
+}
